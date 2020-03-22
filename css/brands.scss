@@ -1,0 +1,60 @@
+.brands {
+  margin-top: 100px;
+}
+
+.brands-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.adidas-item {
+  width: 100px;
+  height: 68px;
+  background: url(../img/adidas.jpg) center no-repeat/cover;
+}
+
+.nike-item {
+  width: 100px;
+  height: 52px;
+  background: url(../img/nike.jpg) center no-repeat/cover;
+}
+
+.puma-item {
+  width: 120px;
+  height: 61px;
+  background: url(../img/puma.jpg) center no-repeat/cover;
+}
+
+.asics-item {
+  width: 99px;
+  height: 44px;
+  background: url(../img/asics.jpg) center no-repeat/cover;
+}
+
+.nb-item {
+  width: 120px;
+  height: 56px;
+  background: url(../img/new-balance.jpg) center no-repeat/cover;
+}
+
+.fila-item {
+  width: 100px;
+  height: 33px;
+  background: url(../img/fila.jpg) center no-repeat/cover;
+}
+
+.adidas-item,
+.fila-item,
+.asics-item,
+.nike-item,
+.nb-item,
+.puma-item {
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+    //cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 0.3s ease-out;
+  }
+}

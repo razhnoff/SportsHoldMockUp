@@ -1,0 +1,44 @@
+@import "./fonts.scss";
+@import "./variables.scss";
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: $fnt_Light;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  //max-width: 1110px;
+  max-width: calc(1680px - 2 * 285px);
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+@import "./header.scss";
+@import "./main-model.scss";
+@import "./buttons.scss";
+@import "./shop-windows.scss";
+@import "./cards.scss";
+@import "./brands.scss";
+@import "./reviews.scss";
+@import "./news.scss";
+@import "./connection.scss";
+@import "./footer.scss";
+@import "./purchases.scss";

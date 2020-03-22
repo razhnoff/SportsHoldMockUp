@@ -1,0 +1,56 @@
+.purchases {
+  display: flex;
+  margin: 0px 22.4px 0 24px;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 47px;
+}
+
+.purchase-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 115px;
+
+  &:nth-child(5) {
+    max-width: 144px;
+  }
+}
+
+.order {
+  width: 40px;
+  height: 40px;
+}
+
+.gift1 {
+  background: url(../img/gift.png) center no-repeat/contain;
+}
+
+.gift2 {
+  background: url(../img/gift2.png) center no-repeat/contain;
+}
+
+.wallet {
+  background: url(../img/wallet.png) center no-repeat/contain;
+}
+
+.phone {
+  background: url(../img/phone1.png) center no-repeat/contain;
+}
+
+.dollar {
+  background: url(../img/dollar.png) center no-repeat/contain;
+}
+
+.car {
+  background: url(../img/car.png) center no-repeat/contain;
+}
+
+.order-title {
+  //height: 43px;
+  text-align: center;
+  margin: 21.2px 0 0 0;
+  color: #fff;
+  font: 16px / normal $fnt_Light;
+  line-height: 1.63;
+}

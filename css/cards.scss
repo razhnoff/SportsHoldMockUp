@@ -1,0 +1,114 @@
+.boots-cards {
+  margin-top: 84px;
+}
+
+.filter {
+  margin: 0 auto;
+  max-width: 452px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-container {
+  position: relative;
+  max-width: 200px;
+  margin: 23px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-item {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 30px;
+  width: 255px;
+  height: 350px;
+  border: solid 1px #e0dfde;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.sales-card {
+  & .new-price_item {
+    color: #ff7373;
+  }
+
+  & .old-price_item {
+    visibility: visible;
+  }
+
+  &::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 19.3px;
+    content: "-25%";
+    width: 60px;
+    height: 28px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff7373;
+    font: 16px / normal $fnt_Bold;
+  }
+}
+
+.new-price_item {
+  font-size: 24px;
+  line-height: 0.9 !important;
+  font: 24px / normal $fnt_Light;
+  color: #8a8784;
+}
+
+.old-price_item {
+  visibility: hidden;
+  margin-top: 10px;
+  line-height: 1.28 !important;
+  font: 16px / normal $fnt_Light;
+  text-decoration: line-through;
+  color: #8a8784;
+}
+
+.card-item_description {
+  max-height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.sex-item {
+  line-height: 1.8 !important;
+  font: 16px / normal $fnt_Bold;
+  text-transform: uppercase;
+  line-height: 1.63;
+  color: #8a8784;
+}
+
+.item_name {
+  max-width: 163px;
+  font: 13px / normal $fnt_Light;
+  line-height: 1.63;
+  color: #bdb9b5;
+}
+
+.item_id {
+  font: 13px / normal $fnt_Light;
+  color: #d0cdca;
+}

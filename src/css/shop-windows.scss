@@ -13,14 +13,20 @@
 .left-slide {
   width: 540px;
   height: 540px;
-  background: url(../img/big-promo.jpg) center no-repeat/cover;
+  background-image: url(../img/big-promo.jpg) center no-repeat/cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .title-logo {
   margin: 0px 63.2px 15px 0.9px;
   width: 32px;
   height: 48px;
-  background: url(../img/small-logo.png) no-repeat center / contain;
+  background-image: url(../img/small-logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .container {
@@ -108,7 +114,10 @@
   align-items: center;
   width: 255px;
   height: 255px;
-  background: url(../img/small-promo1.jpg) center no-repeat/contain;
+  background-image: url(../img/small-promo1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .athlets {
@@ -124,7 +133,10 @@
   justify-content: center;
   width: 255px;
   height: 255px;
-  background: url(../img/small-promo2.jpg) center no-repeat/contain;
+  background-image: url(../img/small-promo2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .article-title-feel {

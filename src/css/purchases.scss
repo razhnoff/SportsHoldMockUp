@@ -23,27 +23,45 @@
 }
 
 .gift1 {
-  background: url(../img/gift.png) center no-repeat/contain;
+  background-image: url(../img/gift.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .gift2 {
-  background: url(../img/gift2.png) center no-repeat/contain;
+  background-image: url(../img/gift2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .wallet {
-  background: url(../img/wallet.png) center no-repeat/contain;
+  background-image: url(../img/wallet.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .phone {
-  background: url(../img/phone1.png) center no-repeat/contain;
+  background-image: url(../img/phone1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .dollar {
-  background: url(../img/dollar.png) center no-repeat/contain;
+  background-image: url(../img/dollar.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .car {
-  background: url(../img/car.png) center no-repeat/contain;
+  background-image: url(../img/car.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .order-title {

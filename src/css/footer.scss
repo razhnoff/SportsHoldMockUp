@@ -30,19 +30,30 @@
 .phone-icon {
   width: 20px;
   height: 20px;
-  background: url(../img/phone2.png) center no-repeat / contain;
+  background-image: url(../img/phone2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .mail-icon {
   width: 20px;
   height: 14px;
-  background: url(../img/mail2.png) center no-repeat / contain;
+  background-image: url(../img/mail2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
 }
 
 .geo-icon {
   width: 20px;
   height: 20px;
-  background: url(../img/geo.png) center no-repeat / contain;
+  background-image: url(../img/geo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
 }
 
 .active-title {
@@ -121,25 +132,40 @@
 #twitter {
   width: 27px;
   height: 22px;
-  background: url(../img/twitter.png) center no-repeat/contain;
+  background-image: url(../img/twitter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 #fb {
   width: 13px;
   height: 27px;
-  background: url(../img/fb.png) center no-repeat/contain;
+  background-image: url(../img/fb.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
 }
 
 #pinterest {
   width: 27px;
   height: 27px;
-  background: url(../img/pint.png) center no-repeat/contain;
+  background-image: url(../img/pint.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
 }
 
 #yt {
   width: 27px;
   height: 20px;
-  background: url(../img/yt.png) center no-repeat/contain;
+  background-image: url(../img/yt.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
 }
 
 #twitter,

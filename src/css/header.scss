@@ -1,112 +1,127 @@
 .header {
-  background-color: #472424;
+    background-color: #472424;
 
-  &-top {
-    width: 100vw;
-    height: 50px;
-    display: grid;
-    grid-template-rows: 100%;
-    grid-template-columns: 90px 90px 70px 90px auto 150px 75px 90px;
-    align-items: center;
-    justify-items: start;
+    &-top {
+        width: 100vw;
+        height: 50px;
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-columns: 90px 90px 70px 90px auto 150px 75px 90px;
+        align-items: center;
+        justify-items: start;
 
-    & > .basket {
-      justify-self: end;
+        & > .basket {
+            justify-self: end;
+        }
     }
-  }
 }
 
 .logo {
-  background-image: url(../img/logo.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 182px;
-  height: 24px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 182px;
+    height: 24px;
 }
 
 .basket {
-  margin-right: 10px;
-  width: 20px;
-  height: 20px;
-  background-image: url(../img/basket.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/basket.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 nav {
-  height: 76px;
-  background: #623232;
+    height: 76px;
+    background: #623232;
 }
 
 .nav::after {
-  background-image: url(../img/logo.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .nav {
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu {
-  max-width: 600px;
-  width: 100vw;
-  //width: 55%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-rows: 100%;
-  grid-template-columns: 1fr 0.4fr 1.1fr 0.6fr 0.7fr 1.2fr 0.7fr;
-  grid-gap: 5px;
+    max-width: 600px;
+    width: 100vw;
+    //width: 55%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 1fr 0.4fr 1.1fr 0.6fr 0.7fr 1.2fr 0.7fr;
+    grid-gap: 5px;
 
-  & > .menu__item {
-    font: 16px / normal $fnt_Light;
-  }
+    & > .menu__item {
+        font: 16px / normal $fnt_Light;
+    }
 }
 
 .menu__item {
-  display: grid;
-  align-content: center;
-  justify-items: center;
-  box-sizing: border-box;
-  font: 13px / normal $fnt_Light;
-  line-height: 1.63;
-  color: #ffffff;
-  height: 100%;
-  width: 100%;
-
-  & > a {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    box-sizing: border-box;
+    font: 13px / normal $fnt_Light;
+    line-height: 1.63;
     color: #ffffff;
-  }
+    height: 100%;
+    width: 100%;
 
-  &:hover {
     & > a {
-      color: #ff7373;
+        color: #ffffff;
     }
 
-    cursor: pointer;
-    border-bottom: 4px solid #ff7373;
-  }
+    &:hover {
+        & > a {
+            color: #ff7373;
+        }
+
+        cursor: pointer;
+        border-bottom: 4px solid #ff7373;
+    }
 }
 
 .additional {
-  width: fit-content;
-  justify-items: start;
+    justify-items: start;
 
-  &:hover {
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
+    & span {
+        color: #ffffff;
+    }
+
+    &:hover {
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    &:last-of-type {
+        display: flex;
+        align-items: center;
+        &:hover {
+            background-color: #ff7373;
+        }
+    }
+
+    &:nth-last-of-type(2) {
+        background-color: none;
+    }
 }
 
 .header-item:hover {
-  color: #ff7373;
+    color: #ff7373;
 }

@@ -1,96 +1,95 @@
 .model_cros {
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 600px;
-  background-color: #f0efee;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 600px;
+    background-color: #f0efee;
 }
 
 .main-model_text_position {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .model_text_slide {
-  text-align: left;
-  width: 48.7%;
-  padding-top: 133px;
+    text-align: left;
+    width: 48.7%;
+    padding-top: 133px;
 }
 
 .nike_model {
-  width: fit-content;
-  height: fit-content;
-  position: absolute;
-  top: -55px;
-  left: -6.6%;
-  z-index: 1;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: -55px;
+    left: -6.6%;
+    z-index: 1;
 }
 
 .model_price {
-  line-height: 0.7 !important;
-  font: 30px / normal $fnt_Light;
-  color: #623232;
+    line-height: 0.7 !important;
+    font: 30px / normal $fnt_Light;
+    color: #623232;
 }
 
 .model_title {
-  line-height: 1 !important;
-  margin: 18px 0 24px 0;
-  font: 70px / normal $fnt_Medium;
-  color: #623232;
+    line-height: 1 !important;
+    margin: 18px 0 24px 0;
+    font: 70px / normal $fnt_Medium;
+    color: #623232;
 }
 
 .model_others {
-  line-height: 0.6 !important;
-  margin-bottom: 36px;
-  font: 50px / normal $fnt_Medium;
-  color: #ff7373;
+    line-height: 0.6 !important;
+    margin-bottom: 36px;
+    font: 50px / normal $fnt_Medium;
+    color: #ff7373;
 }
 
 .model_description {
-  margin: 0;
-  width: 75%;
-  line-height: 1.63 !important;
-  font: 16px / normal $fnt_Light;
-  color: #8a8784;
+    margin: 0;
+    width: 75%;
+    line-height: 1.63 !important;
+    font: 16px / normal $fnt_Light;
+    color: #8a8784;
 }
 
 @media all and (min-width: 1770px) and (max-width: 2000px) {
-  .nike_model {
-    top: -25px;
-    left: 0;
-  }
+    .nike_model {
+        top: -25px;
+        left: 0;
+    }
 }
 
 @media all and (max-width: 1560px) {
-  .nike_model {
-    top: -25px;
-    left: -11%;
-  }
+    .nike_model {
+        top: -25px;
+        left: -11%;
+    }
 }
 
 @media all and (max-width: 1440px) {
-  .nike_model {
-    left: -15%;
-  }
+    .nike_model {
+        left: -15%;
+    }
 }
 
 @media all and (max-width: 1360px) {
-  .nike_model {
-    left: -20%;
-  }
+    .nike_model {
+        left: -20%;
+    }
 }
 
 @media all and (max-width: 1270px) {
-  .nike_model {
-    left: -25%;
-  }
+    .nike_model {
+        left: -25%;
+    }
 }
 
 @media all and (max-width: 1180px) {
-  .nike_model {
-    left: -35%;
-  }
+    .nike_model {
+        left: -35%;
+    }
 }
-

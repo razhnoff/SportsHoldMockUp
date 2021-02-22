@@ -1,65 +1,65 @@
 .brands {
-  margin-top: 100px;
+    margin-top: 100px;
 }
 
 .brands-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .adidas-item {
-  width: 100px;
-  height: 68px;
-  background-image: url(../img/adidas.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    width: 100px;
+    height: 68px;
+    background-image: url(../img/adidas.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .nike-item {
-  width: 100px;
-  height: 52px;
-  background-image: url(../img/nike.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    width: 100px;
+    height: 52px;
+    background-image: url(../img/nike.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .puma-item {
-  width: 120px;
-  height: 61px;
-  background-image: url(../img/puma.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    width: 120px;
+    height: 61px;
+    background-image: url(../img/puma.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .asics-item {
-  width: 99px;
-  height: 44px;
-  background-image: url(../img/asics.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    width: 99px;
+    height: 44px;
+    background-image: url(../img/asics.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .nb-item {
-  width: 120px;
-  height: 56px;
-  background-image: url(../img/new-balance.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    width: 120px;
+    height: 56px;
+    background-image: url(../img/new-balance.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .fila-item {
-  width: 100px;
-  height: 33px;
-  background-image: url(../img/fila.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    width: 100px;
+    height: 33px;
+    background-image: url(../img/fila.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .adidas-item,
@@ -68,11 +68,11 @@
 .nike-item,
 .nb-item,
 .puma-item {
-  opacity: 0.5;
-  &:hover {
-    opacity: 1;
-    //cursor: pointer;
-    transform: scale(1.2);
-    transition: transform 0.3s ease-out;
-  }
+    opacity: 0.5;
+    &:hover {
+        opacity: 1;
+        cursor: pointer;
+        transform: scale(1.2);
+        transition: transform 0.3s ease-out;
+    }
 }

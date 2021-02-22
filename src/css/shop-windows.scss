@@ -1,152 +1,152 @@
 .shop-windows {
-  padding-top: 50px;
-  position: relative;
-  top: 0;
-  z-index: 5;
-  background: #fff;
+    padding-top: 50px;
+    position: relative;
+    top: 0;
+    z-index: 5;
+    background: #fff;
 }
 
 .window_blocks {
-  display: flex;
+    display: flex;
 }
 
 .left-slide {
-  width: 540px;
-  height: 540px;
-  background-image: url(../img/big-promo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+    width: 540px;
+    height: 540px;
+    background-image: url(../img/big-promo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .title-logo {
-  margin: 0px 63.2px 15px 0.9px;
-  width: 32px;
-  height: 48px;
-  background-image: url(../img/small-logo.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    margin: 0px 63.2px 15px 0.9px;
+    width: 32px;
+    height: 48px;
+    background-image: url(../img/small-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .boots-title_container {
-  margin-left: 50px;
-  display: flex;
+    margin-left: 50px;
+    display: flex;
 }
 
 .boots-title {
-  display: flex;
-  justify-content: center;
-  font: 30px / normal $fnt_Light;
-  color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font: 30px / normal $fnt_Light;
+    color: #ffffff;
 }
 
 .boots__model-title {
-  text-align: right;
-  font: 30px / normal $fnt_Bold;
+    text-align: right;
+    font: 30px / normal $fnt_Bold;
 }
 
 .nike {
-  color: #4bd8cd;
+    color: #4bd8cd;
 }
 
 .big-rigth-slide {
-  width: 540px;
-  background: #ffffff;
-  margin-left: 30px;
+    width: 540px;
+    background: #ffffff;
+    margin-left: 30px;
 }
 
 .top-slide {
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 255px;
-  background: #ff7373;
-  display: flex;
-  justify-content: flex-end;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 255px;
+    background: #ff7373;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .adidas-boots {
-  position: absolute;
-  top: -23.5px;
-  left: -10.6px;
+    position: absolute;
+    top: -23.5px;
+    left: -10.6px;
 }
 
 .adidas {
-  color: #fff;
+    color: #fff;
 }
 
 .windows-wrapper {
-  margin: 48.8px 75px 0 0;
+    margin: 48.8px 75px 0 0;
 }
 
 .nike-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 0;
 }
 
 .adidas-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .small-promo-slides {
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-between;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .left-small-slide {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  width: 255px;
-  height: 255px;
-  background-image: url(../img/small-promo1.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 255px;
+    height: 255px;
+    background-image: url(../img/small-promo1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .athlets {
-  margin: 0 0 50px 0;
+    margin: 0 0 50px 0;
 }
 
 .article-athlets {
-  color: #ff7373;
+    color: #ff7373;
 }
 
 .right-small-slide {
-  display: flex;
-  justify-content: center;
-  width: 255px;
-  height: 255px;
-  background-image: url(../img/small-promo2.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    display: flex;
+    justify-content: center;
+    width: 255px;
+    height: 255px;
+    background-image: url(../img/small-promo2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .article-title-feel {
-  margin: 34px 0 0 0;
+    margin: 34px 0 0 0;
 }
 
 .article-feel {
-  color: #6b7072;
+    color: #6b7072;
 }
 
 .article-premium {
-  color: #fff;
+    color: #fff;
 }

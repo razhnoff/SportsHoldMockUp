@@ -1,74 +1,74 @@
 .purchases {
-  display: flex;
-  margin: 0px 22.4px 0 24px;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-  padding-bottom: 47px;
+    display: flex;
+    margin: 0px 22.4px 0 24px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 47px;
 }
 
 .purchase-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 115px;
 
-  &:nth-child(5) {
-    max-width: 144px;
-  }
+    &:nth-child(5) {
+        max-width: 144px;
+    }
 }
 
 .order {
-  width: 40px;
-  height: 40px;
+    width: 40px;
+    height: 40px;
 }
 
 .gift1 {
-  background-image: url(../img/gift.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    background-image: url(../img/gift.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .gift2 {
-  background-image: url(../img/gift2.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    background-image: url(../img/gift2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .wallet {
-  background-image: url(../img/wallet.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    background-image: url(../img/wallet.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .phone {
-  background-image: url(../img/phone1.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    background-image: url(../img/phone1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .dollar {
-  background-image: url(../img/dollar.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    background-image: url(../img/dollar.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .car {
-  background-image: url(../img/car.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    background-image: url(../img/car.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .order-title {
-  //height: 43px;
-  text-align: center;
-  margin: 21.2px 0 0 0;
-  color: #fff;
-  font: 16px / normal $fnt_Light;
-  line-height: 1.63;
+    //height: 43px;
+    text-align: center;
+    margin: 21.2px 0 0 0;
+    color: #fff;
+    font: 16px / normal $fnt_Light;
+    line-height: 1.63;
 }

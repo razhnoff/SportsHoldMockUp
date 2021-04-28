@@ -13,8 +13,8 @@ body {
 }
 
 .wrapper {
+    position: relative;
     margin: 0 auto;
-    //max-width: 1110px;
     max-width: calc(1680px - 2 * 285px);
 }
 
